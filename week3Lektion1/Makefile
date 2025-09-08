@@ -21,3 +21,6 @@
 
 8.out: activity8.cpp
 	g++ activity8.cpp -o 8.out
+
+clean:
+	rm -rf *.out
